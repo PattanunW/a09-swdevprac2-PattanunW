@@ -4,7 +4,7 @@ import TopMenuItem from './TopMenuItem';
 import {getServerSession} from 'next-auth';
 import {Link} from '@mui/material';
 import styles from './topmenu.module.css'
-import {authOptions} from '@/app/api/auth/[...nextauth]/route';
+import {authOptions} from '@/app/api/auth/[...nextauth]/authOptions';
 
 export default async function TopMenu(){
   const session = await getServerSession(authOptions);

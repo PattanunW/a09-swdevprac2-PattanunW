@@ -4,7 +4,7 @@ import Card from "@/components/Card";
 import TopMenu from "@/components/TopMenu";
 
 import {getServerSession} from 'next-auth/next';
-import {authOptions} from './api/auth/[...nextauth]/route';
+import {authOptions} from './api/auth/[...nextauth]/authOptions';
 import NextAuthProvider from '@/providers/NextAuthProvider';
 
 import type { Metadata } from "next";
