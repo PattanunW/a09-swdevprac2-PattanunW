@@ -1,0 +1,27 @@
+.banner {
+  position: relative;  /* เพื่อให้ข้อความที่ใช้ position absolute อยู่ในบริเวณนี้ */
+  height: 300px;  /* ความสูงของบล็อก */
+  display: flex;  /* ใช้ Flexbox */
+  justify-content: center;  /* จัดข้อความให้อยู่กลางแนวนอน */
+  align-items: center;  /* จัดข้อความให้อยู่กลางแนวตั้ง */
+  color: white;  /* สีข้อความ */
+  text-align: center;  /* จัดข้อความให้กึ่งกลาง */
+}
+
+.image {
+  width: 100%;  /* ทำให้ภาพขยายเต็มพื้นที่ */
+  height: 100%;  /* ทำให้ภาพมีความสูงเต็มพื้นที่ของ div */
+  object-fit: cover;  /* ทำให้ภาพขยายและครอบคลุมพื้นที่ */
+}
+
+.title {
+  position: absolute;  /* จัดตำแหน่งข้อความให้ซ้อนอยู่บนภาพ */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  position: absolute;  /* จัดตำแหน่งข้อความให้ซ้อนอยู่บนภาพ */
+  font-size: 1.2rem;
+  margin-top: 5rem;
+}
